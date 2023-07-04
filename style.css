@@ -1,0 +1,37 @@
+.container_main {
+	height: 100vh;
+	background: #99ffcc;
+}
+
+.product_area {
+	background: #ffcccc;
+}
+
+.product_container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 15px;
+	justify-items: center;
+}
+
+.cart_area {
+	background: #ffe6e6;
+}
+
+.header_part {
+	border-bottom: 2px solid white;
+	text-align: center;
+	height: 10%;
+}
+
+.header_part h1{
+	font-size: 50px;
+}
+
+.card-body {
+	text-align: center;
+}
+
+.cart_items {
+	height: 200px;
+}
